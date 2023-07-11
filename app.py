@@ -10,7 +10,7 @@ import urllib.request
 # urllib.request.urlretrieve(csv_url, csv_file_path)
 
 # Read the CSV file into a DataFrame
-df = pd.read_csv("User_input.csv")
+df = pd.read_csv("main/User_input.csv")
 
 # Get user input
 sentence = st.text_input('Masukkan Kalimat:') 
