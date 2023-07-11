@@ -3,7 +3,7 @@ import streamlit as st
 import urllib.request
 
 # Define the file paths
-csv_url = 'https://github.com/fahmisajid/UserInput/blob/main/User_input.csv'
+# csv_url = 'https://github.com/fahmisajid/UserInput/blob/main/User_input.csv'
 csv_file_path = 'User_input.csv'
 
 # Download the CSV file from GitHub
