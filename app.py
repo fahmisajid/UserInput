@@ -3,11 +3,11 @@ import streamlit as st
 import urllib.request
 
 # Define the file paths
-# csv_url = 'https://github.com/fahmisajid/UserInput/blob/main/User_input.csv'
+csv_url = 'https://github.com/fahmisajid/UserInput/blob/main/User_input.csv'
 csv_file_path = 'User_input.csv'
 
 # Download the CSV file from GitHub
-# urllib.request.urlretrieve(csv_url, csv_file_path)
+urllib.request.urlretrieve(csv_url, csv_file_path)
 
 # Read the CSV file into a DataFrame
 df = pd.read_csv("User_input.csv")
