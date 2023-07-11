@@ -1,6 +1,7 @@
 import pandas as pd
 import streamlit as st
 
+df = pd.DataFrame(columns=["Questions", "Answers", "Response_Type"])
 df = pd.read_csv('User_input.csv')
 
 sentence = st.text_input('Masukkan Kalimat:')
