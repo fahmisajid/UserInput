@@ -1,7 +1,7 @@
 import pandas as pd
 import streamlit as st
 
-import pickle 
+from git import Repo
 
 # Clone the GitHub repository
 repo_url = 'https://github.com/fahmisajid/UserInput.git'
