@@ -25,7 +25,7 @@ df_input = pd.DataFrame(user_input, index=[0])
 df_merge = pd.concat([df, df_input], ignore_index=True)
 
 # Display the updated DataFrame in the Streamlit app
-st.write(df_merge)
+st.write(df)
 
 # Write the updated DataFrame back to the CSV file
 df_merge.to_csv(csv_file_path, index=False)
