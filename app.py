@@ -23,7 +23,7 @@ df_merge = pd.concat([df, df_input], ignore_index=True)
 st.write(df)
 
 # Write the updated DataFrame back to the CSV file
-df.to_csv(csv_file_path, index=False)
+df_merge.to_csv(csv_file_path, index=False)
 
 # Commit and push the changes back to the GitHub repository
 repo = Repo(local_path)
