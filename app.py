@@ -7,7 +7,7 @@ import urllib.request
 csv_file_path = 'User_input.csv'
 
 # Download the CSV file from GitHub
-urllib.request.urlretrieve(csv_url, csv_file_path)
+# urllib.request.urlretrieve(csv_url, csv_file_path)
 
 # Read the CSV file into a DataFrame
 df = pd.read_csv(csv_file_path)
